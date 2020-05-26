@@ -1,0 +1,30 @@
+{
+  "title": "Change Shift + option to underscore (international1)",
+  "rules": [
+    {
+      "description": "Change Command + Shift + option + ] to backslash (international3)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash",
+            "modifiers": {
+              "mandatory": [
+                "left_shift",
+                "left_gui"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "international3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
